@@ -33,7 +33,7 @@
 
 .theme-default {
     .theme-header {
-        border-bottom: 3px solid darken(@color-swatch1, 8%);
+        border-bottom: 3px solid darken(@color__secondary, 8%);
         margin-bottom: 2.5em;
     }
 }
@@ -45,59 +45,10 @@
 
 
 .theme-footer {
-    border-top: 3px solid darken(@color-swatch1, 8%);
+    border-top: 3px solid darken(@color__secondary, 8%);
     margin: 4em 0 2em;
     padding: 2em 0 0;
 }
-
-
-
-
-// -----------------------------
-// 3. #Typography
-// -----------------------------
-
-
-// Colour Swatches
-// ---------------
-
-// @color-swatch1: Background
-// @color-swatch2: Contrast
-// @color-swatch3: Buttons
-// @color-swatch4: Headings
-// @color-swatch5: Paragraph
-// @color-swatch6: Navigation Links
-// @color-swatch7: Spare
-
-
-// Colour Variables
-// ----------------
-
-@bg-color: @color-swatch1;          // Background
-@contrast-color: @color-swatch2;    // Contrast Colour
-@button-color: @color-swatch3;      // Button BG Colour
-@heading-color: @color-swatch4;     // Heading Text Colour (H1 - H4)
-@paragraph-color: @color-swatch5;   // Paragraph Text Colour
-@nav-color: @color-swatch6;         // Nav Link Colour
-@spare-color: @color-swatch7;       // Spare Colour
-
-
-// Font Swatches
-// -------------
-
-// font1:  Heading 1
-// font2:  Heading 2
-// font3:  Heading 3
-// font4:  Heading 4
-// font5:  Paragraph
-// font6:  Navigation Link
-// font7:  Buttons
-// font8:  Feature Headline
-// font9:  Feature Strapline
-// font10: Company Name (Logo)
-
-
-
 
 
 // -----------------------------
@@ -110,7 +61,7 @@
 form,
 .form {
     margin-bottom: 1em;
-    background-color: darken(@color-swatch1, 3%);
+    background-color: darken(@color__secondary, 3%);
     .border-radius(3px);
     .button {
         min-height: 44px;
@@ -128,7 +79,7 @@ legend {
     font-size: bkscale(@font-swatch3-font-size,0.8);
     line-height: bkscale(@font-swatch3-line-height,0.9);
     color: darken(@font-swatch5-color, 4%);
-    background-color: darken(@color-swatch1, 6%);
+    background-color: darken(@color__secondary, 6%);
     font-weight: 700;
     @media @mobile {
         padding: 20px;
@@ -148,7 +99,7 @@ input[type="password"],
 textarea,
 .input--single-line {
     min-height: 44px;
-    border: 2px solid darken(@color-swatch1, 10%);
+    border: 2px solid darken(@color__secondary, 10%);
     -webkit-appearance: none;
     -webkit-border-radius: 3px 3px 0 0;
        -moz-border-radius: 3px 3px 0 0;
@@ -157,7 +108,7 @@ textarea,
 
 select {
     height: 44px;
-    border: 2px solid darken(@color-swatch1, 10%);
+    border: 2px solid darken(@color__secondary, 10%);
     background-color: #ffffff;
     width: 100%;
 }
@@ -172,7 +123,7 @@ pre,
 table,
 th,
 td {
-    border: 2px solid darken(@color-swatch1, 10%);
+    border: 2px solid darken(@color__secondary, 10%);
 }
 
 
@@ -301,7 +252,7 @@ td {
 // --------------------------------
 
 .profile .signupform {
-    .legend { background-color: @color-swatch1; }
+    .legend { background-color: @color__secondary; }
     .form-body { padding: 15px 30px 20px; }
     // Label for tablet and desktop
     .label {
@@ -364,7 +315,7 @@ td {
         padding: 10px 20px;
         text-align: center;
         font-weight: 400;
-        background-color: @color-swatch1;
+        background-color: @color__secondary;
     }
     .fieldset--search .label {
         display: none;
@@ -376,7 +327,7 @@ td {
         padding: 15px 30px 30px;
     }
     .form-body {
-        background-color: darken(@color-swatch1, 3%);
+        background-color: darken(@color__secondary, 3%);
     }
     @media @mobile {
         .input--search {
