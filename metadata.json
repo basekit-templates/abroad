@@ -224,15 +224,15 @@
         },
         "image": {
             "color__image--background": "transparent",
-            "color__image-caption--background": "lighten(@color__secondary, 5%)",
+            "color__image-caption--background": "transparent",
             "color__image-title--text": "@color-swatch4",
-            "color__image-description--text": "@color-swatch4"
+            "color__image-description--text": "@color-swatch5"
         },
         "gallery": {
-            "color__gallery--background": "lighten(@color__secondary, 5%)",
-            "color__gallery-caption--background": "@color-swatch5",
-            "color__gallery-title--text": "lighten(@color__secondary, 30%)",
-            "color__gallery-description--text": "lighten(@color__secondary, 30%)"
+            "color__gallery--background": "transparent",
+            "color__gallery-caption--background": "transparent",
+            "color__gallery-title--text": "@color-swatch4",
+            "color__gallery-description--text": "@color-swatch5"
         },
         "slideshow": {
             "color__slideshow--background": "transparent",
