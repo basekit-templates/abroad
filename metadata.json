@@ -162,12 +162,12 @@
      "styles": {
         "colors": {
             "color__primary": "@color-swatch3",
-            "color__secondary": "@color-swatch1"
+            "color__secondary": "@color-swatch2"
         },
         "site": {
-            "color__body--background": "@color__secondary",
-            "color__container--background": "@color__secondary",
-            "color__link--text": "@color__primary",
+            "color__body--background": "@color-swatch1",
+            "color__container--background": "@color-swatch1",
+            "color__link--text": "@color__secondary",
             "color__companyname--text": "@color-swatch4"
         },
         "typography": {
@@ -184,26 +184,26 @@
         },
         "button": {
             "color__button--background": "@color__primary",
-            "color__button--background--hover": "@color-swatch2",
+            "color__button--background--hover": "@color__secondary",
             "color__button--text": "@color-swatch7"
         },
         "header": {
-            "color__header--background": "@color__secondary"
+            "color__header--background": "@color-swatch1"
         },
         "footer": {
-            "color__footer--background": "@color__secondary"
+            "color__footer--background": "@color-swatch1"
         },
         "sidebar": {
-            "color__sidebar--background": "@color__secondary"
+            "color__sidebar--background": "@color-swatch1"
         },
         "navigation": {
-            "color__navigation--background": "@color__secondary",
+            "color__navigation--background": "@color-swatch1",
             "color__navigation--text": "@color-swatch6",
             "color__navigation--text--hover": "@color-swatch4",
             "color__navigation--text--selected": "@color__primary",
-            "color__navigation-list--background": "@color__secondary",
+            "color__navigation-list--background": "@color-swatch1",
             "color__navigation-item--text": "@color-swatch6",
-            "color__navigation-item--selected": "@color-swatch4"
+            "color__navigation-item--selected": "@color__primary"
         },
         "feature": {
             "color__feature--background": "transparent",
@@ -217,9 +217,9 @@
             "color__feature-button--background--hover": "darken(@color__primary, 10%)"
         },
         "forms": {
-            "color__form--background": "transparent",
+            "color__form--background": "darken(@color-swatch1, 3%)",
             "color__form-legend--text": "@color-swatch4",
-            "color__form-legend--background": "transparent",
+            "color__form-legend--background": "darken(@color-swatch1, 6%)",
             "color__form-label--text": "@color-swatch5"
         },
         "image": {
@@ -230,7 +230,7 @@
         },
         "gallery": {
             "color__gallery--background": "transparent",
-            "color__gallery-caption--background": " @color__secondary",
+            "color__gallery-caption--background": "@color-swatch1",
             "color__gallery-title--text": "@color-swatch4",
             "color__gallery-description--text": "@color-swatch5"
         },
@@ -240,22 +240,22 @@
             "color__slideshow-title--text": "@color-swatch7",
             "color__slideshow-description--text": "@color-swatch7",
             "color__slideshow-pagination-item--background": "fadeout(darken(@color-swatch5, 30%), 30%)",
-            "color__slideshow-pagination-item--background--selected": "@color__secondary",
+            "color__slideshow-pagination-item--background--selected": "@color-swatch1",
             "color__slideshow-pagination-item--text": "@color-swatch7"
         },
         "twitter": {
             "color__twitter--background": "transparent",
             "color__twitter-item--background": "transparent",
-            "color__twitter-account-name--background": "@color__primary"
+            "color__twitter-account-name--background": "@color__secondary"
         },
         "socialicons": {
-            "color__socialicons--icon": "@color__primary",
+            "color__socialicons--icon": "@color-swatch7",
             "color__socialicons--icon--background": "transparent",
-            "color__socialicons--text": "@color__secondary"
+            "color__socialicons--text": "@color-swatch1"
         },
         "blog": {
             "color__blogsearch--background": "transparent",
-            "color__blogsearch-legend--background": "transparent",
+            "color__blogsearch-legend--background": "darken(@color-swatch1, 6%)",
             "color__blogsearch-legend--text": "@color-swatch4",
             "color__blogsearch-label--text": "@color-swatch4",
             "color__blogpostlist--background": "transparent",
@@ -287,13 +287,13 @@
             "color__ecombasket--background": "transparent",
             "color__ecombasket-list--background": "transparent",
             "color__ecombasket-button--background": "@color__primary",
-            "color__ecombasket-button--background--hover": "@color-swatch2",
+            "color__ecombasket-button--background--hover": "@color__secondary",
             "color__ecombasket-button--text": "@color-swatch7"
         },
         "menu": {
             "color__menusections--background": "transparent",
             "color__menu--background": "transparent",
-            "color__menu-item--background": "@color__secondary",
+            "color__menu-item--background": "@color-swatch1",
             "color__menu-section-header--background": "transparent",
             "color__menu-section-featured--background": "@color-swatch2"
         }
