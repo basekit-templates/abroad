@@ -66,9 +66,16 @@ a.company-link:hover {
 // Navigation alignment
 
 .extendednavigation {
+    margin: 0 -1em 1em;
     &.align-left { text-align: left; }
     &.align-right { text-align: right; }
     &.align-center { text-align: center; }
+}
+
+// Navigation vertical spacing
+
+.navigation-list {
+	margin: 0;
 }
 
 // Negative margin to align navigation to zone on desktop
@@ -234,9 +241,9 @@ a.company-link:hover {
 // -----------------------------
 
 .feature {
-    margin-bottom: 3em;
+    //margin-bottom: 3em;
     @media @tablet {
-        margin-bottom: 2.5em;
+//         margin-bottom: 2.5em;
     }
     &:before {
         content: " ";
@@ -245,10 +252,12 @@ a.company-link:hover {
         left: 20px;
         right: 20px;
         bottom: 20px;
+/*
         border: 1px solid hsla(hue(@color-swatch1),
                                saturation(@color-swatch1),
                                lightness(lighten(@color-swatch1,10%)),
                                0.15);
+*/
     }
     .background-image,
     .content-wrap {
@@ -267,7 +276,7 @@ a.company-link:hover {
         display: table-cell;
         text-align: center;
         background-color: rgba(0,0,0,0.1);
-        border: 20px solid rgba(255,255,255,0.1);
+//         border: 20px solid rgba(255,255,255,0.1);
     }
     .headline {
         font-family: @font-swatch8-font-family;

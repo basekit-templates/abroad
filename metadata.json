@@ -26,12 +26,12 @@
     "colorSwatches":
     {
         "Swatch 1": {
-            "color1":"#ffffff",
-            "color2":"#1ab29f",
-            "color3":"#5A5959",
-            "color4":"#333132",
-            "color5":"#7e7f82",
-            "color6":"#a8a7a7",
+            "color1":"#EEF5D6",
+            "color2":"#96BB00",
+            "color3":"#8DA81F",
+            "color4":"#4E4E4E",
+            "color5":"#6D6D6D",
+            "color6":"#96BB00",
             "color7":"#ffffff"
         },
         "Swatch 2": {
