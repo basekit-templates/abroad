@@ -66,7 +66,7 @@ a.company-link:hover {
 // Navigation alignment
 
 .extendednavigation {
-    margin: 0 -1em 1em;
+    background-color: @color-swatch7;
     &.align-left { text-align: left; }
     &.align-right { text-align: right; }
     &.align-center { text-align: center; }
@@ -75,15 +75,17 @@ a.company-link:hover {
 // Navigation vertical spacing
 
 .navigation-list {
-	margin: 0;
+    margin: 0;
 }
 
 // Negative margin to align navigation to zone on desktop
 
 @media only screen and (min-width: 769px) {
     .extendednavigation {
+/*
         margin-left: -14px;
         margin-right: -14px;
+*/
     }
 }
 
@@ -278,6 +280,10 @@ a.company-link:hover {
         background-color: rgba(0,0,0,0.1);
 //         border: 20px solid rgba(255,255,255,0.1);
     }
+    .content-inner-wrap {
+        white-space: pre-line;
+        line-height: .2em;
+    }
     .headline {
         font-family: @font-swatch8-font-family;
         color: @font-swatch8-color;
@@ -291,6 +297,13 @@ a.company-link:hover {
         font-size: @font-swatch9-font-size;
         font-weight: @font-swatch9-font-weight;
         line-height: @font-swatch9-line-height;
+    }
+    .headline,
+    .strapline {
+        display: inline-block;
+        clear:both;
+        padding: .2em .6em;
+        background-color: fadeout(@color-swatch4, 65%);
     }
     .button {
         margin: 1em 0;
