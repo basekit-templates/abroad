@@ -187,7 +187,6 @@
             "color__button--text": "@font-swatch7-color"
         },
         "navigation": {
-            "color__navigation--background": "@color-swatch1",
             "color__navigation--text": "@font-swatch6-color",
             "color__navigation--text--hover": "@font-swatch6-color-hover",
             "color__navigation--text--selected": "@color__primary",
@@ -278,7 +277,7 @@
             "color__ecombasket-list--background": "transparent",
             "color__ecombasket-button--background": "@color__primary",
             "color__ecombasket-button--background--hover": "@color__secondary",
-            "color__ecombasket-button--text": "@font-swatch7-color"
+            "color__ecombasket-button--text": "@font-swatch3-color"
         },
         "menu": {
             "color__menusections--background": "transparent",
