@@ -223,7 +223,7 @@
         },
         "socialicons": {
             "color__socialicons--icon": "@color-swatch7",
-            "color__socialicons--icon--background": "transparent",
+            "color__socialicons--icon--background": "transparent"
         },
         "blog": {
             "color__blogsearch-legend--background": "darken(@color__body--background, 6%)",
