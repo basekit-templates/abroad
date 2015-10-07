@@ -227,7 +227,7 @@
             "color__ecomproduct--background": "transparent",
             "color__ecomproduct-images--background": "transparent",
             "color__ecomproduct-content--background": "transparent",
-            "color__ecomproduct-title--text": "@font-swatch3-color",
+            "color__ecomproduct-title--text": "@font-swatch1-color",
             "color__ecomproduct-price--text": "@font-swatch3-color",
             "color__ecombasket--background": "transparent",
             "color__ecombasket-list--background": "transparent",
