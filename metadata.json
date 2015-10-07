@@ -218,8 +218,7 @@
             "color__slideshow-pagination-item--background--selected": "@color-swatch4"
         },
         "twitter": {
-            "color__twitter-item--background": "transparent",
-            "color__twitter-account-name--background": "@color__secondary"
+            "color__twitter-item--background": "transparent"
         },
         "socialicons": {
             "color__socialicons--icon": "@color-swatch1",
