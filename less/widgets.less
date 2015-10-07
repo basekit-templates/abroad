@@ -415,15 +415,21 @@ a.company-link:hover {
 }
 
 .gallery__caption {
+    .caption-link:hover {
+        text-decoration: none;
+    }
+    .image-title,
+    .image-description {
+        &:hover {
+            color: @color-swatch2;
+        }
+    }
     @media @tablet {
         padding: 10px;
         .image-title,
         .image-description {
             font-size: bkscale(@font-swatch5-font-size, .9);
             line-height: bkscale(@font-swatch5-line-height, .9);
-            &:hover {
-                color: @color-swatch2;
-            }
         }
     }
 }
