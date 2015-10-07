@@ -38,9 +38,9 @@
 
 // forms
 @color__form--background: darken(@color__body--background, 3%);
-@color__form-legend--text: @font-swatch3-color;
+@color__form-legend--text: darken(@font-swatch5-color, 4%);
 @color__form-legend--background: darken(@color__body--background, 6%);
-@color__form-label--text: @font-swatch3-color;
+@color__form-label--text: @font-swatch5-color;
 
 // image
 @color__image-title--text: @font-swatch3-color;
@@ -67,17 +67,15 @@
 
 
 // blog
-@color__blogsearch-legend--background: darken(@color__body--background, 6%);
-@color__blogsearch-legend--text: @font-swatch3-color;
+@color__blogsearch-legend--background: @color__form-legend--background;
+@color__blogsearch-legend--text: @color__form-legend--text;
 @color__blogpostlist-article--background: transparent;
 @color__blogpostlist-title--text: @color__secondary;
 @color__blogpost-article--background: transparent;
 @color__blogpost-title--text: @font-swatch1-color;
 
 // ecommerce
-@color__ecomproductslist-legend--background: transparent;
-@color__ecomproductslist-legend--text: @font-swatch3-color;
-@color__ecomproductslist-label--text: @font-swatch3-color;
+@color__ecomproductslist-label--text: @color__form-label--text;
 @color__ecomproductslist-product-item--background: transparent;
 @color__ecomproductslist-product-title--text: @font-swatch3-color;
 @color__ecomproduct--background: transparent;
@@ -172,7 +170,6 @@ button,
 
 form,
 .form {
-	background-color: @color__form--background;
 	legend,
 	.legend {
 		background-color: @color__form-legend--background;
@@ -266,10 +263,6 @@ form,
 
 .ecomproductslist,
 .ecomfeaturedproducts {
-	&__legend.legend {
-		background-color: @color__ecomproductslist-legend--background;
-		color: @color__ecomproductslist-legend--text;
-	}
 	&__label.label {
 		color: @color__ecomproductslist-label--text;
 	}

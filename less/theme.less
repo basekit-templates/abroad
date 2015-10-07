@@ -61,7 +61,7 @@
 form,
 .form {
     margin-bottom: 1em;
-    background-color: darken(@color__body--background, 3%);
+    background-color: @color__form--background;
     .border-radius(3px);
     .button {
         min-height: 44px;
@@ -79,7 +79,7 @@ legend {
     font-size: bkscale(@font-swatch3-font-size,0.8);
     line-height: bkscale(@font-swatch3-line-height,0.9);
     color: darken(@font-swatch5-color, 4%);
-    background-color: darken(@color__body--background, 6%);
+    background-color: @color__form-legend--background;
     font-weight: 700;
     @media @mobile {
         padding: 20px;
@@ -252,7 +252,7 @@ td {
 // --------------------------------
 
 .profile .signupform {
-    .legend { background-color: @color__body--background; }
+    .legend { background-color: @color__form-legend--background; }
     .form-body { padding: 15px 30px 20px; }
     // Label for tablet and desktop
     .label {
@@ -315,7 +315,7 @@ td {
         padding: 10px 20px;
         text-align: center;
         font-weight: 400;
-        background-color: @color__body--background;
+        background-color: @color__form-legend--background;
     }
     .fieldset--search .label {
         display: none;
