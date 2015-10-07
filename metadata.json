@@ -222,9 +222,8 @@
             "color__twitter-account-name--background": "@color__secondary"
         },
         "socialicons": {
-            "color__socialicons--icon": "@font-swatch7-color",
+            "color__socialicons--icon": "@color-swatch7",
             "color__socialicons--icon--background": "transparent",
-            "color__socialicons--text": "@font-swatch7-color"
         },
         "blog": {
             "color__blogsearch-legend--background": "darken(@color__body--background, 6%)",
