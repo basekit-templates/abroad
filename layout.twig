@@ -60,12 +60,17 @@
            <script>window.jQuery || document.write('<script src="{{ asset('libs/jquery-1.10.2.min.js')}}"><\/script>')
         </script>
 
+        <script src="{{ asset('js/jquery.okaynav.js')}}"></script>
+        <script type="text/javascript">
+            var navigation = $('.navigation-body').okayNav();
+        </script>
+
         <script>
             // Toggles class open to display/hide the whole navigation
             $( ".navigation-toggle" ).click(function() {
                 $( ".bk-extendednavigation" ).toggleClass( "open" );
             });
-            // Togglse class open to display/hide folders
+            // Toggles class open to display/hide folders
             $( ".navigation-item.folder" ).each(function() {
                 $( this ).click(function() {
                     $( this ).toggleClass( "open" );
