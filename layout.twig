@@ -63,20 +63,6 @@
         <script src="{{ asset('js/jquery.okaynav.js')}}"></script>
         <script type="text/javascript">
             var navigation = $('.navigation-body').okayNav();
-
-            function navigation(){
-                $('.navigation-body').okayNav({
-                    swipe_enabled : false
-                });
-                $('.navigation-body').okayNav('recalcNav');
-            }
-
-            navigation();
-
-            $(window).on('resize', function(){
-                $('.navigation-body').okayNav('destroy');
-                navigation();
-            });
         </script>
 
         <script>
